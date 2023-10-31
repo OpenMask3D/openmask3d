@@ -1,0 +1,38 @@
+data:
+  scans_path: '/cluster/project/cvg/weders/data/scannet/scans/'
+  masks:
+    masks_path: '/cluster/scratch/efedele/masks' #scannet200
+    masks_suffix: '*_masks.pt'
+  camera:
+    poses_path: 'data/pose/'
+    intrinsic_path: 'data/intrinsic/intrinsic_color.txt'
+    intrinsic_resolution: [968, 1296]
+  depths:
+    depths_path: 'data_compressed/depth/'
+    depths_ext: '.png'
+    depth_scale: 1000
+  images:
+    images_path: 'data_compressed/color/'  
+    images_ext: '.jpg'
+
+openmask3d:
+  top_k: 5
+  multi_level_expansion_ratio: 0.1
+  num_of_levels: 3
+  vis_threshold: 0.2
+  frequency: 10
+  num_random_rounds: 10
+  num_selected_points: 5
+
+external:
+  sam_checkpoint: '/cluster/scratch/efedele/checkpoints/sam_vit_h_4b8939.pth'
+  sam_model_type: 'vit_h'
+  clip_model: 'ViT-L/14@336px'
+
+output:
+  experiment_name: 'experiment'
+  output_directory: '/cluster/scratch/efedele/'
+  save_crops: False
+
+gpu:
+  optimize_gpu_usage: False

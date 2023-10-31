@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openmask3d"
+description = "OpenMask3D: Open-Vocabulary 3D Instance Segmentation "
+authors = [
+    { name = "Elisabetta Fedele" },
+    { name = "Ayça Takmaz" },
+    { name = "Robert W. Sumner" },
+    { name = "Marc Pollefeys" },
+    { name = "Federico Tombari" },
+    { name = "Francis Engelmann" }
+]
+readme = "README.md"
+urls = {github = "https://github.com/OpenMask3D/openmask3d"}
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["openmask3d"]
+
+[tool.setuptools.dynamic]
+version = {attr = "openmask3d.__version__"}
