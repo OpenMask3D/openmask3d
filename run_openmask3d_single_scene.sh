@@ -21,7 +21,7 @@ IMG_EXTENSION=".jpg"
 DEPTH_EXTENSION=".png"
 DEPTH_SCALE=1000
 # model ckpt paths
-MASK_MODULE_CKPT_PATH="$(pwd)/resources/scannet200_val.ckpt"
+MASK_MODULE_CKPT_PATH="$(pwd)/resources/scannet200_model.ckpt"
 SAM_CKPT_PATH="$(pwd)/resources/sam_vit_h_4b8939.pth"
 # output directories to save masks and mask features
 EXPERIMENT_NAME="experiment"
