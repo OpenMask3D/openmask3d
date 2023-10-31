@@ -16,7 +16,7 @@
     <sup>*</sup>equal contribution
   </p>
   <h2 align="center">NeurIPS 2023</h2>
-  <h3 align="center"><a href="https://arxiv.org/abs/2306.13631">Paper</a> | <a href="https://openmask3d.github.io">Project Page</a> | <a href="https://github.com/OpenMask3D/openmask3d">Code</a></h3>
+  <h3 align="center"><a href="https://github.com/OpenMask3D/openmask3d">Code</a> | <a href="https://arxiv.org/abs/2306.13631">Paper</a> | <a href="https://openmask3d.github.io">Project Page</a> </h3>
   <div align="center"></div>
 </p>
 <p align="center">
