@@ -176,7 +176,7 @@ Modify the paths and parameters in [this script](run_openmask3d_scannet200_eval.
  ```bash
 bash run_openmask3d_scannet200_eval.sh
 ```
-This script first extracts and saves the class-agnostic masks, and then computes the mask-features associated with each extracted mask. Afterwards, the evaluation script automatically runs in order to obtain 3D closed-vocabulary semantic instance segmentation scores. 
+This script first extracts and saves the class-agnostic masks, and then computes the mask features associated with each extracted mask. Afterwards, the evaluation script automatically runs in order to obtain 3D closed-vocabulary semantic instance segmentation scores. 
 
 ---
 ## Citation :pray:
